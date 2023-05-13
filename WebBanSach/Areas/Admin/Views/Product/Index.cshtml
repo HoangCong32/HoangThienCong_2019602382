@@ -1,0 +1,130 @@
+﻿@using Microsoft.AspNetCore.Authorization
+@using WebBanSach.Authorization
+@inject IAuthorizationService AuthorizationService
+
+@{
+    ViewData["Title"] = "Index";
+}
+@section Styles{
+    <link rel="stylesheet" type="text/css" href="https://www.jeasyui.com/easyui/themes/bootstrap/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.jeasyui.com/easyui/themes/icon.css">
+}
+@section Scripts{
+    <script type="text/javascript" src="https://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
+    <script src="~/app/controllers/product/quantity-management.js" asp-append-version="true"></script>
+    <script src="~/app/controllers/product/image-management.js" asp-append-version="true"></script>
+    <script src="~/app/controllers/product/whole-price-management.js" asp-append-version="true"></script>
+    <script src="~/app/controllers/product/index.js" asp-append-version="true"></script>
+    <script>
+        var product = new productController();
+        product.initialize();
+    </script>
+}
+
+<div class="page-title">
+    <div class="title_left">
+        <h3>Danh sách sản phẩm</h3>
+    </div>
+
+    <div class="title_right">
+        <div class="col-md-3 col-sm-5 col-xs-12 form-group pull-right">
+
+            <div class="input-group">
+                <input type="text" id="txtKeyword" class="form-control" placeholder="Tìm kiếm...">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" id="btnSearch" type="button">Go!</button>
+                </span>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-10  form-group pull-right">
+            <select class="form-control" id="ddlCategorySearch">
+                <option>--Chọn danh mục--</option>
+            </select>
+        </div>
+        <div class="col-md-6 col-sm-12  form-group pull-right">
+            @{
+                var result = await AuthorizationService.AuthorizeAsync(User, "USER", Operations.Create);
+             }
+             @if (result.Succeeded)
+             {
+                <button id="btnCreate" class="btn btn-success">Thêm</button>
+             }
+            
+        </div>
+    </div>
+</div>
+<div class="clearfix"></div>
+
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel">
+            <div class="x_content">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+
+                            <th>Tên sản phẩm</th>
+                            <th>Danh mục</th>
+                            <th>Tác giả</th>
+                            <th>Nhà xuất bản</th>
+                            <th>Giá</th>
+                            <th>Hình ảnh</th>
+                            <th>Ngày tạo</th>
+                            <th>Tình trạng</th>
+                            <th width="20%">#</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbl-content"></tbody>
+                </table>
+                <!--Pagination-->
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="dataTables_info" id="datatable-checkbox_info" role="status" aria-live="polite">
+                            <select id="ddlShowPage">
+                                <option value="10" selected="selected">10</option>
+                                <option value="20">20</option>
+                                <option value="30">30</option>
+                                <option value="50">50</option>
+                            </select>
+                            <span class="item-per-page">
+                                bản ghi/trang.
+                            </span>
+                            Tổng số bản ghi: <strong id="lblTotalRecords"></strong>
+                        </div>
+                    </div><div class="col-sm-7">
+                        <div class="dataTables_paginate paging_simple_numbers" id="datatable-checkbox_paginate">
+                            <ul id="paginationUL"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script id="table-template" type="x-tmpl-mustache">
+    <tr>
+
+        <td>{{Name}}</td>
+        <td>{{CategoryName}}</td>
+        <td>{{Author}}</td>
+        <td>{{Publisher}}</td>
+        <td>{{Price}}</td>
+        <td>{{{Image}}}</td>
+        <td>{{CreatedDate}}</td>
+        <td>{{{Status}}}</td>
+        <th scope="row">
+        @if ((await AuthorizationService.AuthorizeAsync(User, "USER", Operations.Update)).Succeeded)
+        {
+                <button class="btn btn-default btn-sm btn-edit" data-id="{{Id}}"><i class="fa fa-pencil"></i></button>
+                <button class="btn btn-danger btn-sm btn-delete"  data-id="{{Id}}"><i class="fa fa-trash"></i></button>
+                <a href="#" data-id="{{Id}}" class="btn btn-xs btn-images"><i class="fa fa-image"></i></a>
+                <a href="#" data-id="{{Id}}" class="btn btn-xs btn-quantity"><i class="fa fa-hourglass-start"></i></a>
+                <a href="#" data-id="{{Id}}" class="btn btn-xs btn-whole-price"><i class="fa fa-money"></i></a>
+        }
+        </th>
+    </tr>
+</script>
+<partial name="_AddEditModal.cshtml" />
+<partial name="_QuantityManagement.cshtml" />
+<partial name="_ImageManagement.cshtml" />
+<partial name="_WholePriceManagement.cshtml" />

@@ -1,0 +1,134 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jquery@2.2.0",
+      "files": [
+        "jquery.min.js",
+        "jquery.js",
+        "jquery.min.map"
+      ],
+      "destination": "wwwroot/lib/jquery/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "bootstrap@3.3.7",
+      "destination": "wwwroot/lib/bootstrap/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "jquery-validation@1.14.0",
+      "destination": "wwwroot/lib/jquery-validation/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "jquery-validation-unobtrusive@3.2.6",
+      "destination": "wwwroot/lib/jquery-validation-unobtrusive/"
+    },
+    {
+      "library": "gentelella@1.4.0",
+      "destination": "wwwroot/lib/gentelella/"
+    },
+    {
+      "library": "font-awesome@4.7.0",
+      "destination": "wwwroot/lib/font-awesome/"
+    },
+    {
+      "library": "nprogress@0.2.0",
+      "destination": "wwwroot/lib/nprogress/"
+    },
+    {
+      "library": "bootstrap-daterangepicker@2.1.25",
+      "destination": "wwwroot/lib/bootstrap-daterangepicker/"
+    },
+    {
+      "library": "fastclick@1.0.6",
+      "destination": "wwwroot/lib/fastclick/"
+    },
+    {
+      "library": "Chart.js@2.7.1",
+      "destination": "wwwroot//lib/Chart.js/"
+    },
+    {
+      "library": "jquery-sparklines@2.1.2",
+      "destination": "wwwroot/lib/jquery-sparklines/"
+    },
+    {
+      "library": "flot@0.8.3",
+      "destination": "wwwroot/lib/flot/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "flot-orderbars@1.0.0",
+      "destination": "wwwroot/lib/flot-orderbars/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "flot-spline@0.0.1",
+      "destination": "wwwroot/lib/flot-spline/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "flot.curvedlines@1.1.1",
+      "destination": "wwwroot/lib/flot.curvedlines/"
+    },
+    {
+      "library": "datejs@1.0",
+      "destination": "wwwroot/lib/datejs/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "moment@2.19.1",
+      "destination": "wwwroot/lib/moment/"
+    },
+    //{
+    //  "provider": "unpkg",
+    //  "library": "notifyjs@1.2.2",
+    //  "destination": "wwwroot/lib/notifyjs/"
+    //},
+    {
+      "provider": "unpkg",
+      "library": "bootbox@4.4.0",
+      "destination": "wwwroot/lib/bootbox/"
+    },
+    {
+      "library": "animate.css@3.5.2",
+      "destination": "wwwroot/lib/animate.css/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "jquery-validation@1.14.0",
+      "destination": "wwwroot/lib/jquery-validation/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "jquery-validation-unobtrusive@3.2.6",
+      "destination": "wwwroot/lib/jquery-validation-unobtrusive/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "mustache@2.3.0",
+      "destination": "wwwroot/lib/mustache/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "twbs-pagination@1.4.1",
+      "destination": "wwwroot/lib/twbs-pagination/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "jquery-easyui@1.5.21",
+      "destination": "wwwroot/lib/jquery-easyui/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "jquery-treegrid@0.3.0",
+      "destination": "wwwroot/lib/jquery-treegrid/"
+    },
+    {
+      "library": "bootstrap-datepicker@1.7.1",
+      "destination": "wwwroot/lib/bootstrap-datepicker/"
+    }
+  ]
+}

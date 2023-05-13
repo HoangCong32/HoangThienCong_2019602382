@@ -1,0 +1,12 @@
+D:\DoAnTN\WebBanSach\WebBanSach.Infrastructure\bin\Debug\net6.0\WebBanSach.Infrastructure.deps.json
+D:\DoAnTN\WebBanSach\WebBanSach.Infrastructure\bin\Debug\net6.0\WebBanSach.Infrastructure.dll
+D:\DoAnTN\WebBanSach\WebBanSach.Infrastructure\bin\Debug\net6.0\WebBanSach.Infrastructure.pdb
+D:\DoAnTN\WebBanSach\WebBanSach.Infrastructure\obj\Debug\net6.0\WebBanSach.Infrastructure.csproj.AssemblyReference.cache
+D:\DoAnTN\WebBanSach\WebBanSach.Infrastructure\obj\Debug\net6.0\WebBanSach.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\DoAnTN\WebBanSach\WebBanSach.Infrastructure\obj\Debug\net6.0\WebBanSach.Infrastructure.AssemblyInfoInputs.cache
+D:\DoAnTN\WebBanSach\WebBanSach.Infrastructure\obj\Debug\net6.0\WebBanSach.Infrastructure.AssemblyInfo.cs
+D:\DoAnTN\WebBanSach\WebBanSach.Infrastructure\obj\Debug\net6.0\WebBanSach.Infrastructure.csproj.CoreCompileInputs.cache
+D:\DoAnTN\WebBanSach\WebBanSach.Infrastructure\obj\Debug\net6.0\WebBanSach.Infrastructure.dll
+D:\DoAnTN\WebBanSach\WebBanSach.Infrastructure\obj\Debug\net6.0\refint\WebBanSach.Infrastructure.dll
+D:\DoAnTN\WebBanSach\WebBanSach.Infrastructure\obj\Debug\net6.0\WebBanSach.Infrastructure.pdb
+D:\DoAnTN\WebBanSach\WebBanSach.Infrastructure\obj\Debug\net6.0\ref\WebBanSach.Infrastructure.dll

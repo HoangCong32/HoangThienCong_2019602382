@@ -1,0 +1,17 @@
+D:\DoAnTN\WebBanSach\WebBanSach.Data\bin\Debug\net6.0\WebBanSach.Data.deps.json
+D:\DoAnTN\WebBanSach\WebBanSach.Data\bin\Debug\net6.0\WebBanSach.Data.runtimeconfig.json
+D:\DoAnTN\WebBanSach\WebBanSach.Data\bin\Debug\net6.0\WebBanSach.Data.dll
+D:\DoAnTN\WebBanSach\WebBanSach.Data\bin\Debug\net6.0\WebBanSach.Data.pdb
+D:\DoAnTN\WebBanSach\WebBanSach.Data\bin\Debug\net6.0\WebBanSach.Infrastructure.dll
+D:\DoAnTN\WebBanSach\WebBanSach.Data\bin\Debug\net6.0\WebBanSach.Infrastructure.pdb
+D:\DoAnTN\WebBanSach\WebBanSach.Data\obj\Debug\net6.0\WebBanSach.Data.csproj.AssemblyReference.cache
+D:\DoAnTN\WebBanSach\WebBanSach.Data\obj\Debug\net6.0\WebBanSach.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\DoAnTN\WebBanSach\WebBanSach.Data\obj\Debug\net6.0\WebBanSach.Data.AssemblyInfoInputs.cache
+D:\DoAnTN\WebBanSach\WebBanSach.Data\obj\Debug\net6.0\WebBanSach.Data.AssemblyInfo.cs
+D:\DoAnTN\WebBanSach\WebBanSach.Data\obj\Debug\net6.0\WebBanSach.Data.csproj.CoreCompileInputs.cache
+D:\DoAnTN\WebBanSach\WebBanSach.Data\obj\Debug\net6.0\WebBanSach.Data.csproj.CopyComplete
+D:\DoAnTN\WebBanSach\WebBanSach.Data\obj\Debug\net6.0\WebBanSach.Data.dll
+D:\DoAnTN\WebBanSach\WebBanSach.Data\obj\Debug\net6.0\refint\WebBanSach.Data.dll
+D:\DoAnTN\WebBanSach\WebBanSach.Data\obj\Debug\net6.0\WebBanSach.Data.pdb
+D:\DoAnTN\WebBanSach\WebBanSach.Data\obj\Debug\net6.0\WebBanSach.Data.genruntimeconfig.cache
+D:\DoAnTN\WebBanSach\WebBanSach.Data\obj\Debug\net6.0\ref\WebBanSach.Data.dll

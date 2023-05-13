@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>aspnet-WebBanSach-963A9370-6BDC-4922-9225-6FC9B4A83ACC</UserSecretsId>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+	<PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.0" PrivateAssets="All" />
+    <PackageReference Include="PaulMiami.AspNetCore.Mvc.Recaptcha" Version="1.2.2" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="2.0.0" />
+    <PackageReference Include="SkiaSharp" Version="1.68.3" />
+    <PackageReference Include="WebMarkupMin.AspNetCore2" Version="2.8.3" />
+    <PackageReference Include="WebMarkupMin.NUglify" Version="2.8.4" /> 
+	 
+    <!--<PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.1.0" />
+    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="2.8.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" PrivateAssets="All" />
+    <PackageReference Include="PaulMiami.AspNetCore.Mvc.Recaptcha" Version="1.2.1" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="1.1.0" />
+    <PackageReference Include="SkiaSharp" Version="1.59.3" />
+    <PackageReference Include="WebMarkupMin.AspNetCore2" Version="2.4.2" />
+    <PackageReference Include="WebMarkupMin.NUglify" Version="2.4.2" />-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebBanSach.Application.Dapper\WebBanSach.Application.Dapper.csproj" />
+    <ProjectReference Include="..\WebBanSach.Application\WebBanSach.Application.csproj" />
+    <ProjectReference Include="..\WebBanSach.Data.EF\WebBanSach.Data.EF.csproj" />
+    <ProjectReference Include="..\WebBanSach.Data\WebBanSach.Data.csproj" />
+    <ProjectReference Include="..\WebBanSach.Infrastructure\WebBanSach.Infrastructure.csproj" />
+    <ProjectReference Include="..\WebBanSach.Utilities\WebBanSach.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\gentelella\" />
+  </ItemGroup>
+
+</Project>

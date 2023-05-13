@@ -1,0 +1,12 @@
+D:\DoAnTN\WebBanSach\WebBanSach.Application.Dapper\bin\Debug\net6.0\WebBanSach.Application.Dapper.deps.json
+D:\DoAnTN\WebBanSach\WebBanSach.Application.Dapper\bin\Debug\net6.0\WebBanSach.Application.Dapper.dll
+D:\DoAnTN\WebBanSach\WebBanSach.Application.Dapper\bin\Debug\net6.0\WebBanSach.Application.Dapper.pdb
+D:\DoAnTN\WebBanSach\WebBanSach.Application.Dapper\obj\Debug\net6.0\WebBanSach.Application.Dapper.csproj.AssemblyReference.cache
+D:\DoAnTN\WebBanSach\WebBanSach.Application.Dapper\obj\Debug\net6.0\WebBanSach.Application.Dapper.GeneratedMSBuildEditorConfig.editorconfig
+D:\DoAnTN\WebBanSach\WebBanSach.Application.Dapper\obj\Debug\net6.0\WebBanSach.Application.Dapper.AssemblyInfoInputs.cache
+D:\DoAnTN\WebBanSach\WebBanSach.Application.Dapper\obj\Debug\net6.0\WebBanSach.Application.Dapper.AssemblyInfo.cs
+D:\DoAnTN\WebBanSach\WebBanSach.Application.Dapper\obj\Debug\net6.0\WebBanSach.Application.Dapper.csproj.CoreCompileInputs.cache
+D:\DoAnTN\WebBanSach\WebBanSach.Application.Dapper\obj\Debug\net6.0\WebBanSach.Application.Dapper.dll
+D:\DoAnTN\WebBanSach\WebBanSach.Application.Dapper\obj\Debug\net6.0\refint\WebBanSach.Application.Dapper.dll
+D:\DoAnTN\WebBanSach\WebBanSach.Application.Dapper\obj\Debug\net6.0\WebBanSach.Application.Dapper.pdb
+D:\DoAnTN\WebBanSach\WebBanSach.Application.Dapper\obj\Debug\net6.0\ref\WebBanSach.Application.Dapper.dll

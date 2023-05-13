@@ -1,0 +1,12 @@
+D:\DoAnTN\WebBanSach\WebBanSach.Utilities\bin\Debug\net6.0\WebBanSach.Utilities.deps.json
+D:\DoAnTN\WebBanSach\WebBanSach.Utilities\bin\Debug\net6.0\WebBanSach.Utilities.dll
+D:\DoAnTN\WebBanSach\WebBanSach.Utilities\bin\Debug\net6.0\WebBanSach.Utilities.pdb
+D:\DoAnTN\WebBanSach\WebBanSach.Utilities\obj\Debug\net6.0\WebBanSach.Utilities.csproj.AssemblyReference.cache
+D:\DoAnTN\WebBanSach\WebBanSach.Utilities\obj\Debug\net6.0\WebBanSach.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\DoAnTN\WebBanSach\WebBanSach.Utilities\obj\Debug\net6.0\WebBanSach.Utilities.AssemblyInfoInputs.cache
+D:\DoAnTN\WebBanSach\WebBanSach.Utilities\obj\Debug\net6.0\WebBanSach.Utilities.AssemblyInfo.cs
+D:\DoAnTN\WebBanSach\WebBanSach.Utilities\obj\Debug\net6.0\WebBanSach.Utilities.csproj.CoreCompileInputs.cache
+D:\DoAnTN\WebBanSach\WebBanSach.Utilities\obj\Debug\net6.0\WebBanSach.Utilities.dll
+D:\DoAnTN\WebBanSach\WebBanSach.Utilities\obj\Debug\net6.0\refint\WebBanSach.Utilities.dll
+D:\DoAnTN\WebBanSach\WebBanSach.Utilities\obj\Debug\net6.0\WebBanSach.Utilities.pdb
+D:\DoAnTN\WebBanSach\WebBanSach.Utilities\obj\Debug\net6.0\ref\WebBanSach.Utilities.dll

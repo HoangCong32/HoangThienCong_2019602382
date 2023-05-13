@@ -1,0 +1,57 @@
+﻿@using System.Linq
+@model LoginViewModel
+@inject SignInManager<AppUser> SignInManager
+
+@{
+    ViewData["Title"] = "Log in";
+}
+<!-- Breadcrumbs -->
+
+<div class="breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul>
+                    <li class="home"> <a title="Go to Home Page" href="/">Home</a><span>&raquo;</span></li>
+                    <li><strong>Tài khoản</strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Breadcrumbs End -->
+<!-- Main Container -->
+<section class="main-container col1-layout">
+    <div class="main container">
+        <div class="page-content">
+            <div class="account-login">
+                <div class="box-authentication">
+                    <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+                        <h4>Login</h4>
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <p class="before-login-text">Chào mừng! Mời đăng nhập vào tài khoản</p>
+                        <label asp-for="Email"></label>
+                        <input type="text" asp-for="Email" class="form-control">
+                        <label asp-for="Password"></label>
+                        <input id="password_login" asp-for="Password" type="password" class="form-control">
+                        <p class="forgot-pass"><a asp-action="ForgotPassword">Quên mật khẩu?</a></p>
+                        <button type="submit" class="button">
+                            <i class="icon-lock icons"></i>&nbsp; <span>Đăng nhập</span>
+                        </button>
+                    </form>
+                </div>
+                <div class="box-authentication">
+                    <h4>Đăng ký</h4>
+                    <p>Tạo tài khoản mới</p>
+
+                    <button onclick="window.location.href='/register.html'" class="button"><i class="icon-user icons"></i>&nbsp; <span>Đăng ký</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Main Container End -->
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

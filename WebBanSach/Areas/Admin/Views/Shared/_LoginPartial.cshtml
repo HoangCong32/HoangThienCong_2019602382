@@ -1,0 +1,18 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using WebBanSach.Models
+@using WebBanSach.Extensions
+
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+
+<a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    @User.GetSpecificClaim("FullName")
+    <span class=" fa fa-angle-down"></span>
+</a>
+<ul class="dropdown-menu dropdown-usermenu pull-right">
+    <li>
+        <form action="/Admin/Account/Logout" method="post" id="logoutForm" class="navbar-right">
+            <button type="submit" class="btn btn-link navbar-btn navbar-link">Đăng xuất</button>
+        </form>
+    </li>
+</ul>
